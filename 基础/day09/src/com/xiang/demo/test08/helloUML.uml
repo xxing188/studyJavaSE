@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="374.0" y="334.0">com.xiang.demo.test08.Buyer</node>
+    <node x="0.0" y="334.0">com.xiang.demo.test08.Tutor</node>
+    <node x="187.0" y="334.0">com.xiang.demo.test08.Lecturer</node>
+    <node x="238.5" y="0.0">com.xiang.demo.test08.Emplovee</node>
+    <node x="478.7727272727273" y="247.0">com.xiang.demo.test08.Adminstaff</node>
+    <node x="116.77272727272731" y="247.0">com.xiang.demo.test08.Teacher</node>
+    <node x="561.0" y="334.0">com.xiang.demo.test08.Maintainer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.xiang.demo.test08.Maintainer" target="com.xiang.demo.test08.Emplovee">
+      <point x="55.66666666666663" y="-32.5" />
+      <point x="700.1666666666666" y="314.0" />
+      <point x="661.0492424242425" y="314.0" />
+      <point x="661.0492424242425" y="197.0" />
+      <point x="465.375" y="197.0" />
+      <point x="105.875" y="88.5" />
+    </edge>
+    <edge source="com.xiang.demo.test08.Adminstaff" target="com.xiang.demo.test08.Emplovee">
+      <point x="-36.25" y="-18.5" />
+      <point x="515.0227272727273" y="217.0" />
+      <point x="404.875" y="217.0" />
+      <point x="45.375" y="88.5" />
+    </edge>
+    <edge source="com.xiang.demo.test08.Buyer" target="com.xiang.demo.test08.Emplovee">
+      <point x="-55.66666666666663" y="-32.5" />
+      <point x="401.83333333333337" y="314.0" />
+      <point x="425.0625" y="314.0" />
+      <point x="425.0625" y="227.0" />
+      <point x="374.625" y="227.0" />
+      <point x="15.125" y="88.5" />
+    </edge>
+    <edge source="com.xiang.demo.test08.Maintainer" target="com.xiang.demo.test08.Adminstaff">
+      <point x="0.0" y="-32.5" />
+      <point x="644.5" y="314.0" />
+      <point x="605.6477272727273" y="314.0" />
+      <point x="54.375" y="18.5" />
+    </edge>
+    <edge source="com.xiang.demo.test08.Lecturer" target="com.xiang.demo.test08.Teacher">
+      <point x="-55.66666666666666" y="-32.5" />
+      <point x="214.83333333333334" y="314.0" />
+      <point x="192.3977272727273" y="314.0" />
+      <point x="15.125" y="18.5" />
+    </edge>
+    <edge source="com.xiang.demo.test08.Lecturer" target="com.xiang.demo.test08.Emplovee">
+      <point x="55.66666666666666" y="-32.5" />
+      <point x="326.16666666666663" y="314.0" />
+      <point x="298.4375" y="314.0" />
+      <point x="298.4375" y="227.0" />
+      <point x="344.375" y="227.0" />
+      <point x="-15.125" y="88.5" />
+    </edge>
+    <edge source="com.xiang.demo.test08.Tutor" target="com.xiang.demo.test08.Teacher">
+      <point x="0.0" y="-32.5" />
+      <point x="83.5" y="314.0" />
+      <point x="131.8977272727273" y="314.0" />
+      <point x="-45.375" y="18.5" />
+    </edge>
+    <edge source="com.xiang.demo.test08.Teacher" target="com.xiang.demo.test08.Emplovee">
+      <point x="-30.25" y="-18.5" />
+      <point x="147.0227272727273" y="207.0" />
+      <point x="283.875" y="207.0" />
+      <point x="-75.625" y="88.5" />
+    </edge>
+    <edge source="com.xiang.demo.test08.Buyer" target="com.xiang.demo.test08.Adminstaff">
+      <point x="0.0" y="-32.5" />
+      <point x="457.5" y="314.0" />
+      <point x="496.8977272727273" y="314.0" />
+      <point x="-54.375" y="18.5" />
+    </edge>
+    <edge source="com.xiang.demo.test08.Tutor" target="com.xiang.demo.test08.Emplovee">
+      <point x="-55.66666666666663" y="-32.5" />
+      <point x="27.83333333333337" y="304.0" />
+      <point x="82.22348484848487" y="304.0" />
+      <point x="82.22348484848487" y="197.0" />
+      <point x="253.625" y="197.0" />
+      <point x="-105.875" y="88.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="154.0" y="288.5" />
+  <SelectedNodes>
+    <node>com.xiang.demo.test08.Tutor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
